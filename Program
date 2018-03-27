@@ -1,0 +1,28 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Square a = new Square();
+		Square b = new Square();
+		
+		a.side = 5;
+		b.side = 10;
+		
+		System.out.println(b.getArea());
+		
+	
+		
+	}
+
+}
+class Square{
+	double side;
+	
+	public double getArea() {
+		return side * side;
+    }
+
+
+
+}
